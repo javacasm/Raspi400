@@ -109,6 +109,8 @@ sudo apt-get install gtk-recordmydesktop
 
 ```
 
+
+
 [Fuente](https://raspberrypi.stackexchange.com/questions/108274/is-it-possible-to-record-the-screen-and-audio-on-a-raspberry-pi-4-model-b)
 
 
@@ -133,6 +135,9 @@ Funciona muy bien
 sudo apt install simplescreenrecorder 
 ```
 
+![](./images/RecordMyDesktopPinkError.png
+
+
 ## Edición de vídeo
 
 ```sh
@@ -149,8 +154,14 @@ Descargado desde arduino.cc
 
 Entorno de programación de muchos microcontroladores (micro:bit, esp32, m5stack, ...) con bloques
 
+![](./images/microblocks.png)
+
+
 
 ##  Visual Studio
+
+
+![](./images/VisualStudio.png)
 
 Descargamos desde https://code.visualstudio.com/ 
 Version arm
@@ -220,6 +231,20 @@ Descargamos un modelo STL de thingiverse para probarlo
 
 TODO
 
+
+### Prusa Slicer
+
+Necesitamos
+```sh
+sudo apt-get install -y git cmake libboost-dev libboost-regex-dev libboost-filesystem-dev libboost-thread-dev libboost-log-dev libboost-locale-dev libcurl4-openssl-dev libwxgtk3.0-dev build-essential pkg-config libtbb-dev zlib1g-dev libcereal-dev libeigen3-dev libnlopt-cxx-dev libudev-dev libopenvdb-dev libboost-iostreams-dev libnlopt-dev libdbus-1-dev imagemagick  libgmpxx4ldbl 
+
+```
+
+https://github.com/davidk/PrusaSlicer-ARM.AppImage/releases
+
+
+Descargamos la versión armhf (para 32 bits)
+
 ## Edición de video
 
 OpenShot
@@ -258,13 +283,3 @@ https://raspberrytips.com/install-obs-studio-raspberry-pi/
 
 
 
-![](./images/VisualStudio.png)
-
-
-
-
-
-![](./images/microblocks.png)
-
-
-![](./images/RecordMyDesktopPinkError.png)
